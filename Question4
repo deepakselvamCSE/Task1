@@ -1,0 +1,19 @@
+//Write a java program to Find the smallest number among three numbers.
+
+public class Task4 {
+	
+	public static void main(String[] args) {
+        int a = 25;
+        int b = 10;
+        int c = 15;
+
+        if (a <= b && a <= c) {
+            System.out.println("Smallest number is: " + a);
+        } else if (b <= a && b <= c) {
+            System.out.println("Smallest number is: " + b);
+        } else {
+            System.out.println("Smallest number is: " + c);
+        }
+    }
+
+}
